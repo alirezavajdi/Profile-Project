@@ -1,0 +1,10 @@
+@import '_reset.css';
+
+@font-face{
+    font-family: iranyekan;
+    src: url("../fonts/iranyekanwebregular.eot") format("eot");
+    src: url("../fonts/iranyekanwebregular.woff") format("woff");
+    src: url("../fonts/iranyekanwebregular.woff2") format("woff2");
+   
+    
+}
