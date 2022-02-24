@@ -5,6 +5,57 @@
     src: url("../fonts/iranyekanwebregular.eot") format("eot");
     src: url("../fonts/iranyekanwebregular.woff") format("woff");
     src: url("../fonts/iranyekanwebregular.woff2") format("woff2");
-   
+}
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 10;
+    padding: 0 15px;
+    background: #040b14;
     
+}
+#header .profile .profile-img{
+    margin: 14px auto;
+    display: block;
+    width: 175px;
+    border-radius: 135px;
+    border: 8px solid #2c2f3f;
+}
+#header .profile h2{
+    font-size: 25px;
+    color: #fff;
+}
+#header .profile .socialMedia > a{
+    padding: 7px 12px;
+    background: #212421;
+    line-height: 2;
+    border-radius: 50%;
+    margin: 0 4px;
+    font-size: 20px;
+    color: #fff;
+}
+.nav-menu ul{
+    margin: 20px 0px 0px 30px;
+}
+.nav-menu ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration:  none;
+    color: #a8a9b4;
+    font-size: 18px;
+    transition: 0.3;
+}
+.nav-menu  a:hover, .nav-menu .{
+    color: #fff;
+
+}
+.nav-menu ul li a i{
+    font-size: 20px;
+    line-height: -1;
+}
+.nav-menu ul li a i:hover{
+    color: blue;
 }

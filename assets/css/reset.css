@@ -84,9 +84,8 @@ time,
 mark,
 audio,
 video {
-  direction: rtl !important;
-  text-align: right !important;
-  font-family: iranyekan;
+ 
+  font-family: iranyekan , sans-serif , "open sans";
   font-style: normal;
   margin: 0;
   padding: 0;
