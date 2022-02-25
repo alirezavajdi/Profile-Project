@@ -6,6 +6,7 @@
     src: url("../fonts/iranyekanwebregular.woff") format("woff");
     src: url("../fonts/iranyekanwebregular.woff2") format("woff2");
 }
+/* style header  */
 #header{
     position: fixed;
     top: 0;
@@ -33,10 +34,21 @@
     background: #212421;
     line-height: 2;
     border-radius: 50%;
-    margin: 0 4px;
+    margin: 0 5px;
     font-size: 20px;
     color: #fff;
+    
 }
+#header .profile .socialMedia a i{
+    vertical-align: -3px;
+}
+#header .profile .socialMedia a:hover i{
+    transition: all .60s;
+    color: #149ddd;
+
+}
+/*end style header  */
+/* nav bar */
 .nav-menu ul{
     margin: 20px 0px 0px 30px;
 }
@@ -49,12 +61,48 @@
     transition: 0.3;
 }
 .nav-menu  a:hover{
+    transition: all .60s;
     color: #fff;
 }
 .nav-menu a i{
+    vertical-align: 5em !important;
     font-size: 20px;
     
 }
 .nav-menu ul li a:hover i{
+    transition: all .60s;
     color: #149ddd;
+}
+/*end  nav bar */
+#hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/me2.jpg") top center ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#hero::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background: rgba(5, 13, 24, 0.5);
+    z-index: 1;
+}
+#hero .hero-container{
+    position: absolute;
+    z-index: 5;
+
+}
+#hero .hero-container h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+#hero .hero-container p{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #fff;
+
 }
