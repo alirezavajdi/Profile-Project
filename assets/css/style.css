@@ -48,14 +48,13 @@
     font-size: 18px;
     transition: 0.3;
 }
-.nav-menu  a:hover, .nav-menu .{
+.nav-menu  a:hover{
     color: #fff;
-
 }
-.nav-menu ul li a i{
+.nav-menu a i{
     font-size: 20px;
-    line-height: -1;
+    
 }
-.nav-menu ul li a i:hover{
-    color: blue;
+.nav-menu ul li a:hover i{
+    color: #149ddd;
 }
